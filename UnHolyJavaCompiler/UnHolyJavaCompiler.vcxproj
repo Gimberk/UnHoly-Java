@@ -137,12 +137,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Util\ASM.cpp" />
     <ClCompile Include="src\Lexer\Lexer.cpp" />
     <ClCompile Include="src\UnHolyJavaCompiler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Util\ASM.h" />
     <ClInclude Include="src\Lexer\Lexer.h" />
     <ClInclude Include="src\Lexer\Token.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\Text.uhj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

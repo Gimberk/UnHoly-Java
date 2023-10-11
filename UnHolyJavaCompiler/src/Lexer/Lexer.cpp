@@ -1,11 +1,18 @@
 #include "Lexer.h"
 
+Token_T GetTokenType(std::string word)
+{
+	if (word == "return") return Token_T::_return;
+	return Token_T::none;
+}
+
 std::vector<Token> Lexer::GenerateTokens(const std::string input)
 {
 	std::vector<Token> tokens;
 	std::string buffer;
 	for (int i = 0; i < input.size(); i++)
 	{
+		buffer.clear();
 		char c = input.at(i);
 		if (std::isalpha(c))
 		{
@@ -17,14 +24,10 @@ std::vector<Token> Lexer::GenerateTokens(const std::string input)
 				i++;
 			}
 			i--;
-			if (buffer == "return")
-			{
-				tokens.push_back({ .type = Token_T::_return });
-				buffer.clear();
-			}
+			Token_T type = GetTokenType(buffer);
+			if (type != Token_T::none) tokens.push_back({ .type = type });
 			else
 			{
-				std::cout << buffer << std::endl;
 				std::cerr << "SATIN IS ANGRY!!!" << '\n';
 				exit(EXIT_FAILURE);
 			}

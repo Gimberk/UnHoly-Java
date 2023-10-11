@@ -21,6 +21,9 @@
     <ClCompile Include="src\Lexer\Lexer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Util\ASM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Lexer\Lexer.h">
@@ -29,5 +32,11 @@
     <ClInclude Include="src\Lexer\Token.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Util\ASM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\Text.uhj" />
   </ItemGroup>
 </Project>

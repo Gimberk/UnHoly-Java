@@ -7,7 +7,8 @@ enum class Token_T
 {
     _return,
     int_lit,
-    semi
+    semi,
+    none
 };
 
 struct Token
