@@ -20,5 +20,8 @@ int main()
         file << ASM::TokensToASM(tokens);
     }
 
+    system("ml /c /Zd /coff out.asm");
+    system("Link /SUBSYSTEM:CONSOLE out.obj");
+
     return EXIT_SUCCESS;
 }
