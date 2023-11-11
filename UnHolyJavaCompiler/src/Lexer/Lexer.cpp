@@ -6,6 +6,10 @@ Token_T GetTokenType(std::string word)
 	return Token_T::none;
 }
 
+void Lexer::FormTokens() {
+	validTokens[Token_T::_return] = { .type = Token_T::_return, .requisites = {Token_T::int_lit} };
+}
+
 std::vector<Token> Lexer::GenerateTokens(const std::string input)
 {
 	std::vector<Token> tokens;
@@ -24,8 +28,10 @@ std::vector<Token> Lexer::GenerateTokens(const std::string input)
 				i++;
 			}
 			i--;
+			
 			Token_T type = GetTokenType(buffer);
-			if (type != Token_T::none) tokens.push_back({ .type = type });
+			Token token = validTokens[type];
+			if (type != Token_T::none) tokens.push_back(token);
 			else
 			{
 				std::cerr << "SATIN IS ANGRY!!!" << '\n';
@@ -42,7 +48,8 @@ std::vector<Token> Lexer::GenerateTokens(const std::string input)
 				i++;
 			}
 			i--;
-			tokens.push_back({ .type = Token_T::int_lit, .value = buffer });
+			Token token = { .type = Token_T::int_lit, .value = buffer };
+			tokens.push_back(token);
 		}
 		else if (c == ';')
 		{

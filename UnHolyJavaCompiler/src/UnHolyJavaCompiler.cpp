@@ -14,7 +14,9 @@ int main()
         content = contents_stream.str();
     }
 
-    std::vector<Token> tokens = Lexer::GenerateTokens(content);
+    Lexer lexer;
+
+    std::vector<Token> tokens = lexer.GenerateTokens(content);
     {
         std::fstream file("out.asm", std::ios::out);
         file << ASM::TokensToASM(tokens);

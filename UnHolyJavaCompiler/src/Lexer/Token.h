@@ -2,6 +2,7 @@
 
 #include <optional>
 #include <iostream>
+#include <vector>
 
 enum class Token_T
 {
@@ -15,4 +16,5 @@ struct Token
 {
     Token_T type;
     std::optional<std::string> value;
+    std::vector<Token_T> requisites;
 };

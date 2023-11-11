@@ -8,5 +8,5 @@ includelib /masm32/lib/kernel32.lib
 .data
 .code
 main:
-invoke ExitProcess, 501
+invoke ExitProcess, 3
 end main
