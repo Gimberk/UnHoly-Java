@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{876b8006-3019-4353-8c86-eadcfea98c09}</ProjectGuid>
+    <ProjectGuid>{d6acd08b-0025-469d-bc59-d65d52264bdc}</ProjectGuid>
     <RootNamespace>UnHolyJava</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -70,10 +70,6 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)\bin\$(Platform)</OutDir>
-    <IntDir>$(SolutionDir)\bin-int\$(Platform)</IntDir>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -131,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\parser\Parser.cpp" />
+    <ClCompile Include="src\util\Reader.cpp" />
     <ClCompile Include="src\UnHolyJava.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="content\Text.uhj" />
+    <ClInclude Include="src\parser\Parser.h" />
+    <ClInclude Include="src\UnHolyJava.h" />
+    <ClInclude Include="src\util\Reader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

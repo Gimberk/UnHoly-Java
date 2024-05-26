@@ -1,15 +1,19 @@
-#include <fstream>
-#include <sstream>
-#include <iostream>
+#include "util/Reader.h"
+#include "parser/Parser.h"
+
 int main()
 {
-    std::string content;
-    {
-        std::stringstream contents_stream;
-        std::fstream input("../UnHolyJava/content/Text.uhj", std::ios::in);
-        contents_stream << input.rdbuf();
-        content = contents_stream.str();
-    }
-    
-    std::cout << content;
+	using namespace std;
+
+	std::string input = Reader::get("C:\\Users\\james\\Downloads\\hi.txt");
+
+	Parser parser;
+	if (!parser.generateSource(input)) return -1;
+
+	vector<char>* ref = parser.getSource();
+	if (ref == nullptr) return -2;
+
+	for (char c : *(ref)) {
+		cout << c << '\n';
+	}
 }
