@@ -1,0 +1,17 @@
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\bin\Debug\net8.0\UnHolyJava.exe
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\bin\Debug\net8.0\UnHolyJava.deps.json
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\bin\Debug\net8.0\UnHolyJava.runtimeconfig.json
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\bin\Debug\net8.0\UnHolyJava.dll
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\bin\Debug\net8.0\UnHolyJava.pdb
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.AssemblyInfoInputs.cache
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.AssemblyInfo.cs
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.csproj.CoreCompileInputs.cache
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.sourcelink.json
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.dll
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\refint\UnHolyJava.dll
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.pdb
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\UnHolyJava.genruntimeconfig.cache
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\obj\Debug\net8.0\ref\UnHolyJava.dll
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\bin\Debug\net8.0\content\main.uhj
+C:\Users\james\source\repos\Csharp\UnHolyJava\UnHolyJava\bin\Debug\net8.0\grammar.dat

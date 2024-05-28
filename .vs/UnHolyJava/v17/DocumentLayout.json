@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\james\\source\\repos\\UnHolyJava\\",
+  "WorkspaceRootPath": "C:\\Users\\james\\source\\repos\\Csharp\\UnHolyJava\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\util\\Reader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|solutionrelative:UnHolyJava\\src\\util\\Reader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A4007ADE-1F10-44E1-8E33-3D8F0431A107}|UnHolyJava\\UnHolyJava.csproj|c:\\users\\james\\source\\repos\\csharp\\unholyjava\\unholyjava\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4007ADE-1F10-44E1-8E33-3D8F0431A107}|UnHolyJava\\UnHolyJava.csproj|solutionrelative:unholyjava\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\UnHolyJava.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|solutionrelative:UnHolyJava\\src\\UnHolyJava.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A4007ADE-1F10-44E1-8E33-3D8F0431A107}|UnHolyJava\\UnHolyJava.csproj|c:\\users\\james\\source\\repos\\csharp\\unholyjava\\unholyjava\\ast\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4007ADE-1F10-44E1-8E33-3D8F0431A107}|UnHolyJava\\UnHolyJava.csproj|solutionrelative:unholyjava\\ast\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\parser\\Parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|solutionrelative:UnHolyJava\\src\\parser\\Parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\parser\\Parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D6ACD08B-0025-469D-BC59-D65D52264BDC}|UnHolyJava\\UnHolyJava.vcxproj|solutionrelative:UnHolyJava\\src\\parser\\Parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A4007ADE-1F10-44E1-8E33-3D8F0431A107}|UnHolyJava\\UnHolyJava.csproj|c:\\users\\james\\source\\repos\\csharp\\unholyjava\\unholyjava\\unholyjava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4007ADE-1F10-44E1-8E33-3D8F0431A107}|UnHolyJava\\UnHolyJava.csproj|solutionrelative:unholyjava\\unholyjava.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Csharp\\UnHolyJava\\UnHolyJava\\AST\\Node.cs",
+              "RelativeDocumentMoniker": "UnHolyJava\\AST\\Node.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Csharp\\UnHolyJava\\UnHolyJava\\AST\\Node.cs",
+              "RelativeToolTip": "UnHolyJava\\AST\\Node.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T20:16:59.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Reader.cpp",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\util\\Reader.cpp",
-              "RelativeDocumentMoniker": "UnHolyJava\\src\\util\\Reader.cpp",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\util\\Reader.cpp*",
-              "RelativeToolTip": "UnHolyJava\\src\\util\\Reader.cpp*",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBsAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-26T02:49:28.62Z",
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Csharp\\UnHolyJava\\UnHolyJava\\Parser.cs",
+              "RelativeDocumentMoniker": "UnHolyJava\\Parser.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Csharp\\UnHolyJava\\UnHolyJava\\Parser.cs",
+              "RelativeToolTip": "UnHolyJava\\Parser.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA5wCoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T20:05:45.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Parser.cpp",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\parser\\Parser.cpp",
-              "RelativeDocumentMoniker": "UnHolyJava\\src\\parser\\Parser.cpp",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\parser\\Parser.cpp",
-              "RelativeToolTip": "UnHolyJava\\src\\parser\\Parser.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-26T02:30:31.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Parser.h",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\parser\\Parser.h",
-              "RelativeDocumentMoniker": "UnHolyJava\\src\\parser\\Parser.h",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\parser\\Parser.h",
-              "RelativeToolTip": "UnHolyJava\\src\\parser\\Parser.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-26T02:30:30.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnHolyJava.cpp",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\UnHolyJava.cpp",
-              "RelativeDocumentMoniker": "UnHolyJava\\src\\UnHolyJava.cpp",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\UnHolyJava\\UnHolyJava\\src\\UnHolyJava.cpp",
-              "RelativeToolTip": "UnHolyJava\\src\\UnHolyJava.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-25T17:52:36.692Z",
-              "EditorCaption": ""
+              "Title": "UnHolyJava.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Csharp\\UnHolyJava\\UnHolyJava\\UnHolyJava.cs",
+              "RelativeDocumentMoniker": "UnHolyJava\\UnHolyJava.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Csharp\\UnHolyJava\\UnHolyJava\\UnHolyJava.cs",
+              "RelativeToolTip": "UnHolyJava\\UnHolyJava.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:54:10.361Z"
             }
           ]
         }

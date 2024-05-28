@@ -3,29 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnHolyJava", "UnHolyJava\UnHolyJava.vcxproj", "{D6ACD08B-0025-469D-BC59-D65D52264BDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnHolyJava", "UnHolyJava\UnHolyJava.csproj", "{A4007ADE-1F10-44E1-8E33-3D8F0431A107}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Debug|x64.ActiveCfg = Debug|x64
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Debug|x64.Build.0 = Debug|x64
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Debug|x86.ActiveCfg = Debug|Win32
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Debug|x86.Build.0 = Debug|Win32
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Release|x64.ActiveCfg = Release|x64
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Release|x64.Build.0 = Release|x64
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Release|x86.ActiveCfg = Release|Win32
-		{D6ACD08B-0025-469D-BC59-D65D52264BDC}.Release|x86.Build.0 = Release|Win32
+		{A4007ADE-1F10-44E1-8E33-3D8F0431A107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4007ADE-1F10-44E1-8E33-3D8F0431A107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4007ADE-1F10-44E1-8E33-3D8F0431A107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4007ADE-1F10-44E1-8E33-3D8F0431A107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {142E8B1B-A9CD-495C-A5B3-F5EDF7537FEB}
+		SolutionGuid = {6B0A0020-AB4C-4165-959C-D003B843EE43}
 	EndGlobalSection
 EndGlobal
